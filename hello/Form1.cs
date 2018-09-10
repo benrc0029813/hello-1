@@ -17,9 +17,10 @@ namespace hello
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        (
-            Messagebox.Slow("Hello"),
-        )
-    )
-)
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            MessageBox.Show("Hello");
+        }
+    }
+}
